@@ -15,4 +15,8 @@ After we had gathered all the data (hypsographs, meteorological files and config
 
 With the output files, we subsequently created various plots and computed specific statistics for each lake. In the graphs, we present a comparison between the simulation results and the actual temperature observations. The statistics we calculated include ***********. Subsequently, we compared the results obtained without calibration to those achieved with global calibration.
 
-All the scripts used to generate files, graphics, and statistics, as well as those employed to automate various processes, are stored within the 'scripts' folder in this repository. There is also another readme file that explains the functionality of each script.
+This repository consists of 4 directories: 
+* No calibration: It contains the results of the lakes that were simulated without calibration
+* Global calibration: It contains the results of the lake simulations calibrated with global parameters
+* Calibration: It will store the results of the lake simulations specificly calibrated for each lake
+* Scripts: It contains various scripts used for generating files, creating graphics, calculating statistics, and automating the entire process.
